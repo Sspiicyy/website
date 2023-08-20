@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sspiicyy - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, calmblue, darkgreen);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .projects, .socials {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: darkgreen;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: calmblue;
+        }
+
+        .glyph {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        /* Placeholder glyph styling. Replace with real glyphs or icons. */
+        .glyph:before {
+            content: '❖';
+        }
+    </style>
+</head>
+<body>
+    <h1>sspiicyy</h1>
+    <div class="container">
+        <div class="projects">
+            <h2>Projects</h2>
+            <!-- Add your project details here. -->
+            <div><span class="glyph"></span><a href="#">Project 1</a></div>
+            <div><span class="glyph"></span><a href="#">Project 2</a></div>
+            <!-- ... -->
+        </div>
+
+        <div class="socials">
+            <h2>Social Media</h2>
+            <!-- Add your social media links here. -->
+            <div><span class="glyph"></span><a href="#">Twitter</a></div>
+            <div><span class="glyph"></span><a href="#">LinkedIn</a></div>
+            <!-- ... -->
+        </div>
+    </div>
+</body>
+</html>
